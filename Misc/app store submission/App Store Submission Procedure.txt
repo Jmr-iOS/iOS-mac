@@ -1,0 +1,39 @@
+Steps for App Store Submission
+#0 Icons...
+
+	Icon Sizes
+	iPhone 29pt                - 58x58 px
+	iPhone 40pt                - 80x80 px
+	iPhone 60pt                - 120x120 px
+	iPad App iOS 7-9 76pt (1x) -  76x76px
+	iPad App iOS 7-9 76pt (2x) - 152x152px
+	iPad Pro App iOS 9 83.5pt  - 167x167px
+	
+#1 Create an iTunes Connect Record for the App ('NewApp')
+
+https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/CreatingiTunesConnectRecord.html#//apple_ref/doc/uid/TP40011225-CH13-SW1
+
+#2 Upload the build (Uploading a Build)
+
+https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/UploadingBinariesforanApp.html#//apple_ref/doc/uid/TP40011225-CH38-SW1
+http://help.apple.com/itc/apploader/#/apdS605fc0f6
+
+	Step 1 - Finalize BundleID, App Name, Version, Build & Team correct in XCode Project Settings
+	Step 2 - Change XCode->Product->Destination...->Generic iOS Device
+	Step 3 - XCode Project Clean & Build
+	Step 4 - Generate Archive (XCode->Product->Archive)
+	Step 5 - Export Archive (Export... from right button in new window)
+				*Save for iOS App Store Deployment
+	Step 6 - Open Application Loader (Apple Utility)
+				Double-Click 'Deliver Your App'
+
+	Notes
+	- Use the Application Loader, it is easiest
+	- Bundle Identifier: com.vioteq.watchlogs
+	- Use Window->Organizer->Archives->Upload to App Store!!!!
+	- Save a copy then with 'Export...'
+	
+	- (option) Use the 'Upload to App Store...'
+	- (option) Use the Application Loader (with generated .ipa)	
+		*Make sure the Build Number is unique to what is already loaded!
+		

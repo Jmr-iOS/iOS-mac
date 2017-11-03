@@ -1,0 +1,5 @@
+Tapping a card makes interesting text changes
+
+every time you tap on Meow it plays a Meow sound
+
+every time you tap on Meow it spins and pulsates in size

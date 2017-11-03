@@ -1,0 +1,19 @@
+Git Comment Names
+
+(+)	add
+(U)	update
+(B)	bug
+(C)	code changes
+(S)	setup for an upcoming coding element (e.g. setting up for NSCoding usage)
+(UI)	ui changes
+(N)	notes and comments
+(TEST)	test commit
+
+Example layout
+
+(X)    the comment starts here and starts in lowercase
+
+   *note: the comment always starts at the 7th column
+          then for (+) add  (4) spaces but
+		for (UI) add (3) spaces!
+

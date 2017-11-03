@@ -1,0 +1,7 @@
+How to delete an App
+
+https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/TransferringAndDeletingApps.html
+
+Step 1 - Open iTunes Connect -> App -> App Information
+
+	Press 'Delete'	
